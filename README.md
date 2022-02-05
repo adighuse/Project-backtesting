@@ -6,5 +6,5 @@ Backtesting of EMA(9,26) and SUPERTREND(10,3) on past 1000 trading days and dete
 
 ![image](https://user-images.githubusercontent.com/33117261/152625641-d03a3545-a4b3-48e8-8eb8-978aabf2422a.png)
 
-#check online 
+# check online 
 https://backtestingstrategy.herokuapp.com/
