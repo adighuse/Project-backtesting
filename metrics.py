@@ -13,12 +13,9 @@ def percent_profitable(dataframe):
     return Percent_profitable*100
 
 
-def Average_trade_profit(indicator,dataframe):
+def Average_trade_profit(dataframe):
     invested_amount=10000
-    if indicator=='SUPERTREND(10,3)':
-        total_profit=20971
-    if indicator=='EMA(9,26)':
-        total_profit=19908
+    total_profit=dataframe['equity].tail(1)
     total_net_profit= total_profit-invested_amount
     print(dataframe['equity'][1])
     total_trades=dataframe.shape[0]
